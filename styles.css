@@ -7,14 +7,33 @@ html{
     font-size: 62.5%;
 }
 .header-container{
-    background-color: rgb(23, 141, 252);
     border: 2px solid black;
 }
 .header-box{
     padding-left: 1rem;
 }
 .header-box h2{
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: Helvetica;
+    color: black;
+}
+.main-container{
+    border: 2px solid black;
+    background-color: rgb(23, 141, 252);
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-box{
+    width: 80%;
+    text-align: center;
+    
+}
+.main-box p{
+    font-size: 4rem;
+    text-align: center;
     color: white;
+    font-family: Verdana;
 }
