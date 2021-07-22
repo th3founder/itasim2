@@ -7,11 +7,19 @@ html{
     font-size: 62.5%;
 }
 .header-container{
+    height: 7rem;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.header__conbox{
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .header-box{
     padding-left: 1rem;
 }
@@ -33,11 +41,16 @@ html{
     margin: 0 1rem;
     font-family: Verdana;
 }
+
+
+
+
 /*Main*/
 .main-container{
+    width: 100%;
+    padding: 5rem 0;
     border: 2px solid black;
-    background-color: rgb(23, 141, 252);
-    height: 10vw;
+    background-color: #1e266d;
     display: flex;
     justify-content: center;
     align-items: center;
