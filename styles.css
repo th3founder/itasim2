@@ -42,6 +42,16 @@ html{
     font-family: Verdana;
 }
 
+.img-container{
+    width: 5rem;
+    height: 5rem;
+}
+
+.img{
+    width: 100%;
+    object-fit: cover;
+}
+
 
 
 
