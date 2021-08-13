@@ -78,3 +78,30 @@ html{
     font-family: 'Varela Round', sans-serif;
 }
 
+/*footer*/
+.footer-container{
+    height: 10rem;
+    width: 100%;
+    background-color: #1e266d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-container a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3rem;
+    background-color: blueviolet;
+    padding: 1.6rem 2rem;
+    border-radius: 3rem;
+
+}
+
+.footer-container a:hover{
+    transition-duration: 1s;
+    background-color: white;
+    color: blueviolet;
+}
